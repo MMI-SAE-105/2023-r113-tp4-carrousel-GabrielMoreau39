@@ -48,3 +48,11 @@ img {
   .carrousel_btn-apres {
     right: 0;
   }
+  .caroussel_liste-liens {
+    display: flex; /* aligns children horizontally */
+    justify-content: center; /* centers children horizontally */
+    margin: 0; /* removes default margins */
+    padding: 0; /* removes default padding */
+    list-style: none; /* removes default bullets */
+    gap: 1rem; /* adds space between children */
+}
