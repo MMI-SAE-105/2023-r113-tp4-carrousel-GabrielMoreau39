@@ -9,3 +9,7 @@ img {
     display: flex; /* aligne horizontalement les enfants */
     width: 100%;/* largeur du parent */  
 }
+.carrousel_ecran {
+    width: 100%;  /* largeur du parent pour chaque enfant */
+    flex: none; /* permet de garder toute la largeur du parent */
+}
