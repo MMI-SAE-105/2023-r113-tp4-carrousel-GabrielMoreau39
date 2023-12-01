@@ -20,11 +20,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 400px;
 }
 .carrousel_parent-ecrans {
     display: flex; /* aligne horizontalement les enfants */
     width: 100%;/* largeur du parent */  
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     overflow-x: scroll; /* permet de scroller horizontalement */
     scroll-behavior: smooth; /* animation de défilement */
@@ -38,7 +39,7 @@ body{
     border-radius: 10px;
     margin: 10px 0;
 }
-.carrousel_ecran figure {0.1
+.carrousel_ecran figure {
     margin: 0; /* enlève les marges par défaut */
     height : auto;
 }
@@ -80,10 +81,9 @@ body{
     list-style: none; /* removes default bullets */
     gap: 1rem; /* adds space between children */
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 400px;
 }
 .caroussel_lien.actif {
-    color: rgb (0,0,0);
     background-color: #4ca4da;
 }
 .caroussel_lien {
