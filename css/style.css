@@ -25,6 +25,7 @@ body{
     display: flex; /* aligne horizontalement les enfants */
     width: 100%;/* largeur du parent */  
     max-width: 500px;
+    height: auto;
     overflow-x: scroll; /* permet de scroller horizontalement */
     scroll-behavior: smooth; /* animation de défilement */
     scroll-snap-type: x mandatory; /* permet de scroller par blocs */
@@ -35,7 +36,7 @@ body{
     flex: none; /* permet de garder toute la largeur du parent */
     scroll-snap-align: start; /* aligne les enfants par blocs */
 }
-.carrousel_ecran figure {
+.carrousel_ecran figure {0.1
     margin: 0; /* enlève les marges par défaut */
 }
 .carrousel {
