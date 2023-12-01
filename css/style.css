@@ -5,6 +5,11 @@ img {
     max-width: 100%; /* image responsive, largeur maxi */
     height: auto; /* hauteur "auto" */
 }
+
+body{
+    display: flex;
+    justify-content: center;
+}
 .carrousel_parent-ecrans {
     display: flex; /* aligne horizontalement les enfants */
     width: 100%;/* largeur du parent */  
@@ -52,7 +57,7 @@ img {
   .caroussel_liste-liens {
     display: flex; /* aligns children horizontally */
     justify-content: center; /* centers children horizontally */
-    margin: 0; /* removes default margins */
+    margin: top; /* removes default margins */
     padding: 0; /* removes default padding */
     list-style: none; /* removes default bullets */
     gap: 1rem; /* adds space between children */
