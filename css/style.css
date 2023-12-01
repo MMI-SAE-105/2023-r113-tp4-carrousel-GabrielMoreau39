@@ -32,7 +32,7 @@ body{
   
   .carrousel_btn {
     position: absolute;
-    top: 50%;
+    top: 25%;
     top: calc(
       min(500px, 100vw) / 16 * 9 / 2 + 1rem
     ); /* centre verticalement ~50% vertical */
@@ -45,6 +45,9 @@ body{
     display: grid;
     place-content: center;
     color: #fff;
+    top: 42.5%;
+    left: 100%;
+    transform: translate(-50%, -50%);
   }
   
   .carrousel_btn-avant {
