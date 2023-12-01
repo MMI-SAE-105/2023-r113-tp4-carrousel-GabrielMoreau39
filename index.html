@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" />
     <script src="//unpkg.com/alpinejs" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Carrousel</title>
 </head>
 <body>
-    <h1>Test de Carrousel</h1>
+    
     <div class="carrousel" x-data="{
         hrefCourant: '#ecran-1',
         }">
+        <h1>Test de Carrousel</h1>
         <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
         @click="$refs.parent.scrollBy(-$refs.parent.clientWidth, 0)">
             &lt;
@@ -28,6 +30,7 @@
                        .id
                                          "
         >
+        
         <div id="ecran-1" class="carrousel_ecran">
             <figure>
                 <img src="./img/avatars-000589154457-u2cvrc-t500x500.jpg" alt="image ecran 1">
